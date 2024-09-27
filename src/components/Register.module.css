@@ -1,0 +1,21 @@
+.registerWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerWrapper span {
+  margin: 15px 0 10px;
+  font-size: 20px;
+}
+
+.registerWrapper input {
+  width: 450px;
+  height: 48px;
+  border: 2px solid grey;
+}
+
+.registerWrapper input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}

@@ -1,0 +1,10 @@
+.homeWrapper ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.homeWrapper li {
+  list-style-type: none;
+}

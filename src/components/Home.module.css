@@ -1,3 +1,7 @@
+.homeWrapper h1 {
+  margin-bottom: 20px;
+}
+
 .homeWrapper ul {
   display: flex;
   flex-direction: row;

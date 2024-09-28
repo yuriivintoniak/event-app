@@ -1,8 +1,10 @@
-import React from "react";
+import styles from "./Participants.module.css";
 
 const Participants = () => {
   return (
-    <h1>Participants</h1>
+    <div className={styles.participantsWrapper}>
+      <h1>Participants</h1>
+    </div>
   );
 }
 

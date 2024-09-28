@@ -1,0 +1,14 @@
+.participantsWrapper ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.participantsWrapper li {
+  width: 250px;
+  height: 150px;
+  padding: 15px;
+  list-style-type: none;
+  border: 2px solid gray;
+}

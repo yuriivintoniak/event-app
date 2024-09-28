@@ -4,14 +4,20 @@ import styles from "./Event.module.css";
 const Event = ({ event }) => {
   return (
     <div className={styles.eventWrapper}>
-      <p>{event.title}</p>
-      <p>{event.description}</p>
-      <div className="mt-4 flex justify-between">
+      <div className="flex justify-between mb-6">
+        <p>{event.title}</p>
+        <p>{event.date}</p>
+      </div>
+      <div className="flex justify-between">
+        <p>{event.description}</p>
+        <p>{event.organizer}</p>
+      </div>
+      <div className="mt-10 flex justify-between">
         <Link to={`/registration`}>
-          <button>{event.register}</button>
+          <button>Register</button>
         </Link>
-        <Link to={`participants`}>
-          <button>{event.view}</button>
+        <Link to={`/participants`}>
+          <button>View</button>
         </Link>
       </div>
     </div>
